@@ -1,6 +1,6 @@
 from setuptools import setup
 
-with open("./requirements.txt") as f:
+with open("V2.0/requirements.txt") as f:
     install_requires = [line.strip() for line in f]
 
 setup(
